@@ -1,4 +1,6 @@
 class Admin::OrdersController < ApplicationController
+  before_action :authenticate_user!
+  before_action :admin_user
   before_action :load_categories
   before_action :find_order, only: %i(update)
 

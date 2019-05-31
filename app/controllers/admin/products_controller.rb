@@ -1,5 +1,5 @@
 class Admin::ProductsController < ApplicationController
-  before_action :logged_in_user
+  before_action :authenticate_user!
   before_action :admin_user
   before_action :load_categories
   before_action :find_product, except: %i(new create index import)

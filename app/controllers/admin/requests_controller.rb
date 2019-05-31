@@ -1,5 +1,5 @@
 class Admin::RequestsController < ApplicationController
-  before_action :logged_in_user
+  before_action :authenticate_user!
   before_action :admin_user
   before_action :find_product, only: %i(update destroy)
 
