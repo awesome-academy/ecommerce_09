@@ -187,6 +187,7 @@ GEM
     parser (2.6.3.0)
       ast (~> 2.4.0)
     pg (0.20.0)
+    polyglot (0.3.5)
     powerpack (0.1.2)
     public_suffix (3.1.0)
     puma (3.12.1)
@@ -257,6 +258,8 @@ GEM
     sassc (2.0.1)
       ffi (~> 1.9)
       rake
+    search_cop (1.0.9)
+      treetop
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
@@ -274,6 +277,8 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
+    treetop (1.6.10)
+      polyglot (~> 0.3)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (4.1.20)
@@ -328,6 +333,7 @@ DEPENDENCIES
   responders
   rubocop (~> 0.54.0)
   sass-rails (~> 5.0)
+  search_cop
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
