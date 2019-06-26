@@ -55,7 +55,7 @@ RSpec.describe User, type: :model do
       is_expected.not_to be_valid
     end
     it do
-      expect(user.errors.messages[:email]).equal?(
+      expect(user.errors.messages[:email].first).equal?(
         I18n.t "activerecord.errors.models.user.email.invalid")
     end
   end
