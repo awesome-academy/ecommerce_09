@@ -56,7 +56,7 @@ group :test do
   gem "database_cleaner"
   gem "minitest", "5.11.3"
   gem "minitest-reporters", "1.1.14"
-  gem "rails-controller-testing", "1.0.2"
+  gem "rails-controller-testing"
   gem "selenium-webdriver"
   gem "shoulda-matchers", require: false
 end
