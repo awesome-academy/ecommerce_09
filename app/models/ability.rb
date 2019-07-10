@@ -2,7 +2,6 @@ class Ability
   include CanCan::Ability
 
   def initialize current_user, controller_namespace
-    can %i(new create), User
     return if current_user.blank?
     case controller_namespace
     when Settings.controller.namespace_for_admin
