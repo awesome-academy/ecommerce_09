@@ -12,7 +12,7 @@ gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap-sass"
 gem "cancancan"
-gem "carrierwave", "1.2.2"
+gem "carrierwave", "1.3.2"
 gem "chartkick"
 gem "coffee-rails", "~> 4.2"
 gem "config"
